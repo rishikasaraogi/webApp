@@ -1,0 +1,45 @@
+Folder Structure
+src - index.js
+
+Commands
+npm init
+npm install express
+
+In app.js file
+require express
+app.get()
+app.listen()
+Routing of pages - about, weather, error page
+
+Creating new folder
+public - folder css(style.css), folder js(main.js), index.html, about.html
+
+Copying all images to image folder in public 
+
+Calling static page to express js 
+const path = require("path");
+const static_path = path.join(__dirname,"../public");
+app.use(express.static(static_path));
+
+Install bootstrap4 in index.html 
+Add navbar using bootstrap 
+Add font-awesome CDN link - 10.0
+Add snow flake icon
+
+Edit the header section
+Add Footer section 
+
+Styling home page
+Styling about page 
+
+Using express js as view engine 
+npm install hbs
+make a new folder views
+make new files - index.hbs , about.hbs, 404error.hbs
+copy code of html files to hbs files 
+Then follow the steps for hbs 
+
+Using partials (to avoid repetition of code of navbar and footer)
+Follow the steps for partials through document 
+
+Style 404 error page 
